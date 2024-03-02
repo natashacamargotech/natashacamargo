@@ -1,9 +1,9 @@
 <template>
-  <img src="public/img/banner.png" />
+  <img src="public/img/banner.png" class="full-width" />
 
-  <div class="q-pa-xl row items-center" href="#sobre">
-    <div class="col-7">
-      <q-card class="q-pa-md bg-pink text-h5 text-white">
+  <div class="row items-center" href="#sobre">
+    <div class="col-7 q-pa-md">
+      <q-card class="q-pa-md bg-pink-5 text-h5 text-white">
         <h4 class="text-center">Sobre Mim</h4>
         <p class="text-justify-between">
           Sou uma profissional com experiência em Odontologia e estou em
@@ -25,72 +25,93 @@
       </q-card>
     </div>
     <div class="col-5 q-mx-sx">
-      <q-img src="public/img/natashaperfil.png" width="450px" height="500px" />
+      <q-img
+        src="public/img/natashaperfil.png"
+        style="width: 450px; height: auto"
+      />
     </div>
   </div>
-  <div class="q-col-gutter-md row items-star bg-red" href="#trabalhos">
-    <h1 vclass="text-center">Hard Skilss</h1>
-  </div>
-  <div class="q-pa-md" style="max-width: 350px">
-    <q-list dense bordered padding class="rounded-borders">
-      <q-item clickable v-ripple>
-        <q-item-section class="text-h6 text-center"> Frontend </q-item-section>
-      </q-item>
+  <div class="bg-pink-2">
+    <div href="#trabalhos">
+      <h1 class="text-center bg-pink-2">Hard Skilss</h1>
+    </div>
+    <div class="row q-pa-md bg-pink-2">
+      <div class="col">
+        <div class="q-pa-md" style="max-width: 350px">
+          <q-list dense bordered padding class="rounded-borders">
+            <q-item clickable v-ripple>
+              <q-item-section class="text-h6 text-center">
+                Frontend
+              </q-item-section>
+            </q-item>
+            <q-separator inset />
+            <q-item clickable v-ripple>
+              <q-item-section class="text-center">
+                HTML <q-tooltip> HTML 5 </q-tooltip>
+              </q-item-section>
+            </q-item>
 
-      <q-item clickable v-ripple>
-        <q-item-section class="text-center"> HTML </q-item-section>
-      </q-item>
+            <q-item clickable v-ripple>
+              <q-item-section class="text-center"> CSS </q-item-section>
+            </q-item>
 
-      <q-item clickable v-ripple>
-        <q-item-section class="text-center"> CSS </q-item-section>
-      </q-item>
+            <q-item clickable v-ripple>
+              <q-item-section class="text-center"> JavaScript </q-item-section>
+            </q-item>
+          </q-list>
+        </div>
+      </div>
+      <div class="col">
+        <div class="q-pa-md" style="max-width: 350px">
+          <q-list dense bordered padding class="rounded-borders">
+            <q-item clickable v-ripple>
+              <q-item-section class="text-h6 text-center">
+                Backend
+              </q-item-section>
+            </q-item>
+            <q-separator inset />
+            <q-item clickable v-ripple>
+              <q-item-section class="text-center"> Vue </q-item-section>
+            </q-item>
 
-      <q-item clickable v-ripple>
-        <q-item-section class="text-center"> JavaScript </q-item-section>
-      </q-item>
-    </q-list>
-    <div class="q-pa-md" style="max-width: 350px">
-      <q-list dense bordered padding class="rounded-borders">
-        <q-item clickable v-ripple>
-          <q-item-section class="text-h6 text-center"> Backend </q-item-section>
-        </q-item>
+            <q-item clickable v-ripple>
+              <q-item-section class="text-center"> JAVA </q-item-section>
+            </q-item>
 
-        <q-item clickable v-ripple>
-          <q-item-section class="text-center"> Vue </q-item-section>
-        </q-item>
+            <q-item clickable v-ripple>
+              <q-item-section class="text-center"> Flutter </q-item-section>
+            </q-item>
 
-        <q-item clickable v-ripple>
-          <q-item-section class="text-center"> JAVA </q-item-section>
-        </q-item>
+            <q-item clickable v-ripple>
+              <q-item-section class="text-center"> Angular </q-item-section>
+            </q-item>
+          </q-list>
+        </div>
+      </div>
+      <div class="col">
+        <div class="q-pa-md" style="max-width: 350px">
+          <q-list dense bordered padding class="rounded-borders">
+            <q-item clickable v-ripple>
+              <q-item-section class="text-h6 text-center">
+                Frameworks
+              </q-item-section>
+            </q-item>
+            <q-separator inset />
+            <q-item clickable v-ripple>
+              <q-item-section class="text-center"> Quasar </q-item-section>
+            </q-item>
 
-        <q-item clickable v-ripple>
-          <q-item-section class="text-center"> Flutter </q-item-section>
-        </q-item>
+            <q-item clickable v-ripple>
+              <q-item-section class="text-center"> Bootstrap </q-item-section>
+            </q-item>
 
-        <q-item clickable v-ripple>
-          <q-item-section class="text-center"> Angular </q-item-section>
-        </q-item>
-      </q-list>
-      <div class="q-pa-md" style="max-width: 350px">
-        <q-list dense bordered padding class="rounded-borders">
-          <q-item clickable v-ripple>
-            <q-item-section class="text-h6 text-center">
-              Frameworks
-            </q-item-section>
-          </q-item>
-
-          <q-item clickable v-ripple>
-            <q-item-section class="text-center"> Quasar </q-item-section>
-          </q-item>
-
-          <q-item clickable v-ripple>
-            <q-item-section class="text-center"> Bootstrap </q-item-section>
-          </q-item>
-
-          <q-item clickable v-ripple>
-            <q-item-section class="text-center"> Springboot </q-item-section>
-          </q-item>
-        </q-list>
+            <q-item clickable v-ripple>
+              <q-item-section class="text-center"> Springboot </q-item-section>
+            </q-item>
+          </q-list>
+        </div>
+      </div>
+      <div class="col">
         <div class="q-pa-md" style="max-width: 350px">
           <q-list dense bordered padding class="rounded-borders">
             <q-item clickable v-ripple>
@@ -98,7 +119,7 @@
                 Testes
               </q-item-section>
             </q-item>
-
+            <q-separator inset />
             <q-item clickable v-ripple>
               <q-item-section class="text-center"> Selenium </q-item-section>
             </q-item>
@@ -108,86 +129,174 @@
             </q-item>
           </q-list>
         </div>
-        <div class="q-pa-md" style="max-width: 350px">
-          <q-list dense bordered padding class="rounded-borders">
-            <q-item clickable v-ripple>
-              <q-item-section class="text-h6 text-center">
-                Banco de Dados
-              </q-item-section>
-            </q-item>
-
-            <q-item clickable v-ripple>
-              <q-item-section class="text-center"> Oracle </q-item-section>
-            </q-item>
-
-            <q-item clickable v-ripple>
-              <q-item-section class="text-center">
-                SQL DEVELOPER
-              </q-item-section>
-            </q-item>
-          </q-list>
-          <div class="q-pa-md" style="max-width: 350px">
-            <q-list dense bordered padding class="rounded-borders">
-              <q-item clickable v-ripple>
-                <q-item-section class="text-h6 text-center">
-                  Serviços de aplicação:
-                </q-item-section>
-              </q-item>
-
-              <q-item clickable v-ripple>
-                <q-item-section class="text-center"> Widfly </q-item-section>
-              </q-item>
-
-              <q-item clickable v-ripple>
-                <q-item-section class="text-center"> JBOSS </q-item-section>
-              </q-item>
-            </q-list>
-          </div>
-          <div class="q-pa-md" style="max-width: 350px">
-            <q-list dense bordered padding class="rounded-borders">
-              <q-item clickable v-ripple>
-                <q-item-section class="text-h6 text-center">
-                  Gerenciamento
-                </q-item-section>
-              </q-item>
-
-              <q-item clickable v-ripple>
-                <q-item-section class="text-center"> TRELLO </q-item-section>
-              </q-item>
-
-              <q-item clickable v-ripple>
-                <q-item-section class="text-center">
-                  GLPI(Chamados)
-                </q-item-section>
-              </q-item>
-            </q-list>
-          </div>
-          <div class="q-pa-md" style="max-width: 350px">
-            <q-list dense bordered padding class="rounded-borders">
-              <q-item clickable v-ripple>
-                <q-item-section class="text-h6 text-center">
-                  Outros
-                </q-item-section>
-              </q-item>
-
-              <q-item clickable v-ripple>
-                <q-item-section class="text-center"> GitHub </q-item-section>
-              </q-item>
-
-              <q-item clickable v-ripple>
-                <q-item-section class="text-center"> GitLab </q-item-section>
-              </q-item>
-            </q-list>
-          </div>
-        </div>
       </div>
     </div>
   </div>
-  <div class="q-col-gutter-md row items-star bg-orange" href="#trabalhos">
-    <h1 vclass="text-center">Soft Skills</h1>
+  <div class="row q-pa-md bg-pink-2">
+    <div class="col">
+      <div class="q-pa-md" style="max-width: 350px">
+        <q-list dense bordered padding class="rounded-borders">
+          <q-item clickable v-ripple>
+            <q-item-section class="text-h6 text-center">
+              Banco de Dados
+            </q-item-section>
+          </q-item>
+          <q-separator inset />
+          <q-item clickable v-ripple>
+            <q-item-section class="text-center"> Oracle </q-item-section>
+          </q-item>
+
+          <q-item clickable v-ripple>
+            <q-item-section class="text-center"> SQL DEVELOPER </q-item-section>
+          </q-item>
+        </q-list>
+      </div>
+    </div>
+    <div class="col">
+      <div class="q-pa-md" style="max-width: 350px">
+        <q-list dense bordered padding class="rounded-borders">
+          <q-item clickable v-ripple>
+            <q-item-section class="text-h6 text-center">
+              Serviços de Aplicação:
+            </q-item-section>
+          </q-item>
+          <q-separator inset />
+          <q-item clickable v-ripple>
+            <q-item-section class="text-center"> Widfly </q-item-section>
+          </q-item>
+
+          <q-item clickable v-ripple>
+            <q-item-section class="text-center"> JBOSS </q-item-section>
+          </q-item>
+        </q-list>
+      </div>
+    </div>
+    <div class="col">
+      <div class="q-pa-md" style="max-width: 350px">
+        <q-list dense bordered padding class="rounded-borders">
+          <q-item clickable v-ripple>
+            <q-item-section class="text-h6 text-center">
+              Gerenciamento
+            </q-item-section>
+          </q-item>
+          <q-separator inset />
+          <q-item clickable v-ripple>
+            <q-item-section class="text-center"> TRELLO </q-item-section>
+          </q-item>
+
+          <q-item clickable v-ripple>
+            <q-item-section class="text-center">
+              GLPI(Chamados)
+            </q-item-section>
+          </q-item>
+        </q-list>
+      </div>
+    </div>
+    <div class="col">
+      <div class="q-pa-md" style="max-width: 350px">
+        <q-list dense bordered padding class="rounded-borders">
+          <q-item clickable v-ripple>
+            <q-item-section class="text-h6 text-center">
+              Outros
+            </q-item-section>
+          </q-item>
+          <q-separator inset />
+          <q-item clickable v-ripple>
+            <q-item-section class="text-center"> GitHub </q-item-section>
+          </q-item>
+
+          <q-item clickable v-ripple>
+            <q-item-section class="text-center"> GitLab </q-item-section>
+          </q-item>
+        </q-list>
+      </div>
+    </div>
   </div>
-  <div class="q-col-gutter-md row items-star bg-red" href="#trabalhos">
-    <h1 vclass="text-center">Projetos</h1>
+
+  <div class="bg-orange" href="#softkills">
+    <h1 class="text-center">Soft Skills</h1>
+  </div>
+  <div class="row q-pa-md">
+    <div class="col">
+      <div class="q-pa-md" style="max-width: 350px">
+        <q-list dense bordered padding class="rounded-borders">
+          <q-item clickable v-ripple>
+            <q-item-section class="text-h6 text-center"> xxxx </q-item-section>
+          </q-item>
+
+          <q-item clickable v-ripple>
+            <q-item-section class="text-center"> xxxx </q-item-section>
+          </q-item>
+
+          <q-item clickable v-ripple>
+            <q-item-section class="text-center"> xxxx </q-item-section>
+          </q-item>
+
+          <q-item clickable v-ripple>
+            <q-item-section class="text-center"> xxxx </q-item-section>
+          </q-item>
+        </q-list>
+      </div>
+    </div>
+    <div class="col">
+      <div class="q-pa-md" style="max-width: 350px">
+        <q-list dense bordered padding class="rounded-borders">
+          <q-item clickable v-ripple>
+            <q-item-section class="text-h6 text-center"> xxxx </q-item-section>
+          </q-item>
+
+          <q-item clickable v-ripple>
+            <q-item-section class="text-center"> xxxx </q-item-section>
+          </q-item>
+
+          <q-item clickable v-ripple>
+            <q-item-section class="text-center"> xxxx </q-item-section>
+          </q-item>
+
+          <q-item clickable v-ripple>
+            <q-item-section class="text-center"> xxxx </q-item-section>
+          </q-item>
+
+          <q-item clickable v-ripple>
+            <q-item-section class="text-center"> xxxx </q-item-section>
+          </q-item>
+        </q-list>
+      </div>
+    </div>
+    <div class="col">
+      <div class="q-pa-md" style="max-width: 350px">
+        <q-list dense bordered padding class="rounded-borders">
+          <q-item clickable v-ripple>
+            <q-item-section class="text-h6 text-center"> xxxx </q-item-section>
+          </q-item>
+
+          <q-item clickable v-ripple>
+            <q-item-section class="text-center"> xxxx </q-item-section>
+          </q-item>
+
+          <q-item clickable v-ripple>
+            <q-item-section class="text-center"> xxxx </q-item-section>
+          </q-item>
+
+          <q-item clickable v-ripple>
+            <q-item-section class="text-center"> xxxx </q-item-section>
+          </q-item>
+        </q-list>
+      </div>
+    </div>
+  </div>
+
+  <div class="bg-red" href="#trabalhos">
+    <h1 class="text-center">Projetos</h1>
+  </div>
+  <div class="q-pa-md">
+    <q-card class="bg-yellow"> Projeto 1</q-card>
+  </div>
+  <div class="q-pa-md">
+    <q-card class="bg-yellow"> Projeto 2</q-card>
+  </div>
+  <div class="q-pa-md">
+    <q-card class="bg-yellow"> Projeto 3</q-card>
   </div>
 
   <h1 class="text-center">Contato</h1>

@@ -1,7 +1,7 @@
 <template>
   <q-layout view="lHh lpr lFf" class="shadow-2 rounded-borders">
     <q-header>
-      <q-toolbar class="bg-pink">
+      <q-toolbar class="bg-pink-2 text-black">
         <q-toolbar-title>Natasha Camargo</q-toolbar-title>
 
         <q-tabs v-model="tab">
@@ -16,15 +16,15 @@
     </q-header>
 
     <q-footer>
-      <q-toolbar class="bg-pink">
-        <q-toolbar-title class="text-center">
+      <q-toolbar class="bg-pink-2">
+        <q-toolbar-title class="text-center text-black">
           Copyright © 2024 | Criado por Natasha Camargo
           <q-space />
           <q-btn
             dense
             flat
             icon="whatshot"
-            style="font-size: 15px; color: white"
+            style="font-size: 15px; color: black"
           />
         </q-toolbar-title>
       </q-toolbar>
