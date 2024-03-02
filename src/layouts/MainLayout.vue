@@ -6,8 +6,8 @@
 
         <q-tabs v-model="tab">
           <q-tab name="sobre" label="Sobre mim" />
-          <q-tab name="trabalhos" label="Projetos" />
           <q-tab name="skills" label="Skills" />
+          <q-tab name="trabalhos" label="Projetos" />
           <q-tab name="contato" label="Contato" />
         </q-tabs>
 
@@ -19,13 +19,6 @@
       <q-toolbar class="bg-pink-2">
         <q-toolbar-title class="text-center text-black">
           Copyright © 2024 | Criado por Natasha Camargo
-          <q-space />
-          <q-btn
-            dense
-            flat
-            icon="whatshot"
-            style="font-size: 15px; color: black"
-          />
         </q-toolbar-title>
       </q-toolbar>
     </q-footer>

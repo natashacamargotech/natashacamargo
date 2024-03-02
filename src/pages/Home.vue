@@ -3,7 +3,7 @@
 
   <div class="row items-center" href="#sobre">
     <div class="col-7 q-pa-md">
-      <q-card class="q-pa-md bg-pink-5 text-h5 text-white">
+      <q-card class="q-pa-md text-h5">
         <h4 class="text-center">Sobre Mim</h4>
         <p class="text-justify-between">
           Sou uma profissional com experiência em Odontologia e estou em
@@ -31,14 +31,20 @@
       />
     </div>
   </div>
-  <div class="bg-pink-2">
-    <div href="#trabalhos">
-      <h1 class="text-center bg-pink-2">Hard Skilss</h1>
+  <div class="q-pa-md bg-pink-1">
+    <div href="#skills">
+      <h1 class="text-center bg-pink-1">Hard Skilss</h1>
     </div>
-    <div class="row q-pa-md bg-pink-2">
+    <div class="row q-pa-md bg-pink-1">
       <div class="col">
         <div class="q-pa-md" style="max-width: 350px">
-          <q-list dense bordered padding class="rounded-borders">
+          <q-list
+            dense
+            bordered
+            padding
+            class="rounded-borders"
+            style="min-height: 200px"
+          >
             <q-item clickable v-ripple>
               <q-item-section class="text-h6 text-center">
                 Frontend
@@ -63,7 +69,13 @@
       </div>
       <div class="col">
         <div class="q-pa-md" style="max-width: 350px">
-          <q-list dense bordered padding class="rounded-borders">
+          <q-list
+            dense
+            bordered
+            padding
+            class="rounded-borders"
+            style="min-height: 200px"
+          >
             <q-item clickable v-ripple>
               <q-item-section class="text-h6 text-center">
                 Backend
@@ -90,7 +102,13 @@
       </div>
       <div class="col">
         <div class="q-pa-md" style="max-width: 350px">
-          <q-list dense bordered padding class="rounded-borders">
+          <q-list
+            dense
+            bordered
+            padding
+            class="rounded-borders"
+            style="min-height: 200px"
+          >
             <q-item clickable v-ripple>
               <q-item-section class="text-h6 text-center">
                 Frameworks
@@ -113,7 +131,13 @@
       </div>
       <div class="col">
         <div class="q-pa-md" style="max-width: 350px">
-          <q-list dense bordered padding class="rounded-borders">
+          <q-list
+            dense
+            bordered
+            padding
+            class="rounded-borders"
+            style="min-height: 200px"
+          >
             <q-item clickable v-ripple>
               <q-item-section class="text-h6 text-center">
                 Testes
@@ -132,10 +156,16 @@
       </div>
     </div>
   </div>
-  <div class="row q-pa-md bg-pink-2">
+  <div class="row q-pa-md bg-pink-1">
     <div class="col">
       <div class="q-pa-md" style="max-width: 350px">
-        <q-list dense bordered padding class="rounded-borders">
+        <q-list
+          dense
+          bordered
+          padding
+          class="rounded-borders"
+          style="min-height: 200px"
+        >
           <q-item clickable v-ripple>
             <q-item-section class="text-h6 text-center">
               Banco de Dados
@@ -154,7 +184,13 @@
     </div>
     <div class="col">
       <div class="q-pa-md" style="max-width: 350px">
-        <q-list dense bordered padding class="rounded-borders">
+        <q-list
+          dense
+          bordered
+          padding
+          class="rounded-borders"
+          style="min-height: 200px"
+        >
           <q-item clickable v-ripple>
             <q-item-section class="text-h6 text-center">
               Serviços de Aplicação:
@@ -173,7 +209,13 @@
     </div>
     <div class="col">
       <div class="q-pa-md" style="max-width: 350px">
-        <q-list dense bordered padding class="rounded-borders">
+        <q-list
+          dense
+          bordered
+          padding
+          class="rounded-borders"
+          style="min-height: 200px"
+        >
           <q-item clickable v-ripple>
             <q-item-section class="text-h6 text-center">
               Gerenciamento
@@ -194,7 +236,13 @@
     </div>
     <div class="col">
       <div class="q-pa-md" style="max-width: 350px">
-        <q-list dense bordered padding class="rounded-borders">
+        <q-list
+          dense
+          bordered
+          padding
+          class="rounded-borders"
+          style="min-height: 200px"
+        >
           <q-item clickable v-ripple>
             <q-item-section class="text-h6 text-center">
               Outros
@@ -213,13 +261,19 @@
     </div>
   </div>
 
-  <div class="bg-orange" href="#softkills">
+  <div class="bg-pink-2">
     <h1 class="text-center">Soft Skills</h1>
   </div>
-  <div class="row q-pa-md">
+  <div class="row q-pa-md bg-pink-2">
     <div class="col">
       <div class="q-pa-md" style="max-width: 350px">
-        <q-list dense bordered padding class="rounded-borders">
+        <q-list
+          dense
+          bordered
+          padding
+          class="rounded-borders"
+          style="min-height: 200px"
+        >
           <q-item clickable v-ripple>
             <q-item-section class="text-h6 text-center"> xxxx </q-item-section>
           </q-item>
@@ -240,7 +294,13 @@
     </div>
     <div class="col">
       <div class="q-pa-md" style="max-width: 350px">
-        <q-list dense bordered padding class="rounded-borders">
+        <q-list
+          dense
+          bordered
+          padding
+          class="rounded-borders"
+          style="min-height: 200px"
+        >
           <q-item clickable v-ripple>
             <q-item-section class="text-h6 text-center"> xxxx </q-item-section>
           </q-item>
@@ -265,7 +325,13 @@
     </div>
     <div class="col">
       <div class="q-pa-md" style="max-width: 350px">
-        <q-list dense bordered padding class="rounded-borders">
+        <q-list
+          dense
+          bordered
+          padding
+          class="rounded-borders"
+          style="min-height: 200px"
+        >
           <q-item clickable v-ripple>
             <q-item-section class="text-h6 text-center"> xxxx </q-item-section>
           </q-item>
@@ -285,8 +351,14 @@
       </div>
     </div>
   </div>
-
-  <div class="bg-red" href="#trabalhos">
+  <div class="q-pa-md q-gutter-md">
+    <div class="row justify-between">
+      <q-parallax src="https://cdn.quasar.dev/img/parallax2.jpg">
+        <h1 class="text-white">texto</h1>
+      </q-parallax>
+    </div>
+  </div>
+  <div class="bg-yellow" href="#trabalhos">
     <h1 class="text-center">Projetos</h1>
   </div>
   <div class="q-pa-md">
@@ -299,8 +371,8 @@
     <q-card class="bg-yellow"> Projeto 3</q-card>
   </div>
 
-  <h1 class="text-center">Contato</h1>
-  <div class="q-col-gutter-md row items-star bg-orange" href="#trabalhos">
+  <h1 class="text-center" href="#contato">Contato</h1>
+  <div class="q-col-gutter-md row items-star bg-orange">
     <div class="q-col-gutter-md q-pa-xl">
       <q-btn class="glossy" color="pink" icon="X" label="GitHub" />
     </div>
