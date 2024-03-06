@@ -45,7 +45,7 @@
             class="rounded-borders"
             style="min-height: 200px"
           >
-            <q-item clickable v-ripple>
+            <q-item>
               <q-item-section class="text-h6 text-center">
                 Frontend
               </q-item-section>
@@ -53,16 +53,29 @@
             <q-separator inset />
             <q-item clickable v-ripple>
               <q-item-section class="text-center">
-                HTML <q-tooltip> HTML 5 </q-tooltip>
+                HTML
+                <q-tooltip>
+                  HTML 5 - Linguagem de marcação utilizada na construção de
+                  páginas na Web
+                </q-tooltip>
               </q-item-section>
             </q-item>
 
             <q-item clickable v-ripple>
               <q-item-section class="text-center"> CSS </q-item-section>
+              <q-tooltip
+                >CSS 3 - Mecanismo para adicionar estilos a uma página
+                web</q-tooltip
+              >
             </q-item>
 
             <q-item clickable v-ripple>
               <q-item-section class="text-center"> JavaScript </q-item-section>
+              <q-tooltip>
+                Linguagem de programação interpretada estruturada, de script em
+                alto nível com tipagem dinâmica fraca e
+                multiparadigma</q-tooltip
+              >
             </q-item>
           </q-list>
         </div>
@@ -76,7 +89,7 @@
             class="rounded-borders"
             style="min-height: 200px"
           >
-            <q-item clickable v-ripple>
+            <q-item>
               <q-item-section class="text-h6 text-center">
                 Backend
               </q-item-section>
@@ -84,18 +97,31 @@
             <q-separator inset />
             <q-item clickable v-ripple>
               <q-item-section class="text-center"> Vue </q-item-section>
+              <q-tooltip
+                >Framework JavaScript de código-aberto, focado no
+                desenvolvimento de interfaces de usuário e aplicativos de página
+                única</q-tooltip
+              >
             </q-item>
 
             <q-item clickable v-ripple>
               <q-item-section class="text-center"> JAVA </q-item-section>
+              <q-tooltip
+                >Linguagem de programação orientada a objetos</q-tooltip
+              >
             </q-item>
 
             <q-item clickable v-ripple>
-              <q-item-section class="text-center"> Flutter </q-item-section>
+              <q-item-section class="text-center"> DART </q-item-section>
+              <q-tooltip>Linguagem de script voltada à web</q-tooltip>
             </q-item>
 
             <q-item clickable v-ripple>
               <q-item-section class="text-center"> Angular </q-item-section>
+              <q-tooltip
+                >Plataforma de aplicações web de código-fonte aberto e front-end
+                baseado em TypeScrip</q-tooltip
+              >
             </q-item>
           </q-list>
         </div>
@@ -109,7 +135,7 @@
             class="rounded-borders"
             style="min-height: 200px"
           >
-            <q-item clickable v-ripple>
+            <q-item>
               <q-item-section class="text-h6 text-center">
                 Frameworks
               </q-item-section>
@@ -117,14 +143,36 @@
             <q-separator inset />
             <q-item clickable v-ripple>
               <q-item-section class="text-center"> Quasar </q-item-section>
+              <q-tooltip>
+                Framework de desenvolvimento front-end de código aberto baseado
+                no Vue. js</q-tooltip
+              >
             </q-item>
 
             <q-item clickable v-ripple>
               <q-item-section class="text-center"> Bootstrap </q-item-section>
+              <q-tooltip
+                >Framework web com código-fonte aberto para desenvolvimento de
+                componentes de interface e front-end para sites e aplicações
+                web, usando HTML, CSS e JavaScript</q-tooltip
+              >
+            </q-item>
+            <q-item clickable v-ripple>
+              <q-item-section class="text-center"> Flutter </q-item-section>
+              <q-tooltip
+                >Kit de desenvolvimento de interface de usuário, de código
+                aberto</q-tooltip
+              >
             </q-item>
 
             <q-item clickable v-ripple>
               <q-item-section class="text-center"> Springboot </q-item-section>
+              <q-tooltip
+                >Extensão de convenção sobre configuração para a plataforma
+                Spring Java destinada a ajudar a minimizar preocupações de
+                configuração durante a criação de aplicativos baseados em
+                Spring</q-tooltip
+              >
             </q-item>
           </q-list>
         </div>
@@ -138,7 +186,7 @@
             class="rounded-borders"
             style="min-height: 200px"
           >
-            <q-item clickable v-ripple>
+            <q-item>
               <q-item-section class="text-h6 text-center">
                 Testes
               </q-item-section>
@@ -146,10 +194,17 @@
             <q-separator inset />
             <q-item clickable v-ripple>
               <q-item-section class="text-center"> Selenium </q-item-section>
+              <q-tooltip
+                >Framework portátil para testar aplicativos web</q-tooltip
+              >
             </q-item>
 
             <q-item clickable v-ripple>
               <q-item-section class="text-center"> Play Wright </q-item-section>
+              <q-tooltip
+                >Biblioteca de automação de código aberto para testes de
+                navegador e web scraping</q-tooltip
+              >
             </q-item>
           </q-list>
         </div>
@@ -166,7 +221,7 @@
           class="rounded-borders"
           style="min-height: 200px"
         >
-          <q-item clickable v-ripple>
+          <q-item>
             <q-item-section class="text-h6 text-center">
               Banco de Dados
             </q-item-section>
@@ -174,10 +229,18 @@
           <q-separator inset />
           <q-item clickable v-ripple>
             <q-item-section class="text-center"> Oracle </q-item-section>
+            <q-tooltip
+              >Banco de dados para armazenamento, recuperação e gerenciamento de
+              informações orientadas a documentos</q-tooltip
+            >
           </q-item>
 
           <q-item clickable v-ripple>
             <q-item-section class="text-center"> SQL DEVELOPER </q-item-section>
+            <q-tooltip
+              >Ferramenta gráfica que aprimora a produtividade e simplifica as
+              tarefas de modelagem de dados.</q-tooltip
+            >
           </q-item>
         </q-list>
       </div>
@@ -191,18 +254,23 @@
           class="rounded-borders"
           style="min-height: 200px"
         >
-          <q-item clickable v-ripple>
+          <q-item>
             <q-item-section class="text-h6 text-center">
-              Serviços de Aplicação:
+              Serviços de Aplicação
             </q-item-section>
           </q-item>
           <q-separator inset />
           <q-item clickable v-ripple>
             <q-item-section class="text-center"> Widfly </q-item-section>
+            <q-tooltip>Servidor de aplicações open source</q-tooltip>
           </q-item>
 
           <q-item clickable v-ripple>
             <q-item-section class="text-center"> JBOSS </q-item-section>
+            <q-tooltip>
+              Maximiza a produtividade administrativa ao facilitar a manutenção
+              e atualização das suas implantações</q-tooltip
+            >
           </q-item>
         </q-list>
       </div>
@@ -216,7 +284,7 @@
           class="rounded-borders"
           style="min-height: 200px"
         >
-          <q-item clickable v-ripple>
+          <q-item>
             <q-item-section class="text-h6 text-center">
               Gerenciamento
             </q-item-section>
@@ -224,12 +292,21 @@
           <q-separator inset />
           <q-item clickable v-ripple>
             <q-item-section class="text-center"> TRELLO </q-item-section>
+            <q-tooltip
+              >Ferramenta visual que possibilita ao time o gerenciamento de
+              qualquer tipo de projeto, fluxo de trabalho ou monitoramento de
+              tarefas</q-tooltip
+            >
           </q-item>
 
           <q-item clickable v-ripple>
             <q-item-section class="text-center">
               GLPI(Chamados)
             </q-item-section>
+            <q-tooltip
+              >Sistema de código aberto para Gerenciamento de Ativos de TI,
+              rastreamento de problemas e central de serviços</q-tooltip
+            >
           </q-item>
         </q-list>
       </div>
@@ -243,7 +320,7 @@
           class="rounded-borders"
           style="min-height: 200px"
         >
-          <q-item clickable v-ripple>
+          <q-item>
             <q-item-section class="text-h6 text-center">
               Outros
             </q-item-section>
@@ -251,104 +328,46 @@
           <q-separator inset />
           <q-item clickable v-ripple>
             <q-item-section class="text-center"> GitHub </q-item-section>
+            <q-tooltip
+              >Plataforma de hospedagem de código-fonte e arquivos com controle
+              de versão usando o Git</q-tooltip
+            >
           </q-item>
 
           <q-item clickable v-ripple>
             <q-item-section class="text-center"> GitLab </q-item-section>
+            <q-tooltip
+              >Gerenciador de repositório de software baseado em git, com
+              suporte a Wiki, gerenciamento de tarefas e CI/CD.
+            </q-tooltip>
           </q-item>
         </q-list>
       </div>
     </div>
   </div>
 
-  <div class="bg-pink-2">
-    <h1 class="text-center">Soft Skills</h1>
-  </div>
-  <div class="row q-pa-md bg-pink-2">
-    <div class="col">
-      <div class="q-pa-md" style="max-width: 350px">
-        <q-list
-          dense
-          bordered
-          padding
-          class="rounded-borders"
-          style="min-height: 200px"
-        >
-          <q-item clickable v-ripple>
-            <q-item-section class="text-h6 text-center"> xxxx </q-item-section>
-          </q-item>
-
-          <q-item clickable v-ripple>
-            <q-item-section class="text-center"> xxxx </q-item-section>
-          </q-item>
-
-          <q-item clickable v-ripple>
-            <q-item-section class="text-center"> xxxx </q-item-section>
-          </q-item>
-
-          <q-item clickable v-ripple>
-            <q-item-section class="text-center"> xxxx </q-item-section>
-          </q-item>
-        </q-list>
-      </div>
-    </div>
-    <div class="col">
-      <div class="q-pa-md" style="max-width: 350px">
-        <q-list
-          dense
-          bordered
-          padding
-          class="rounded-borders"
-          style="min-height: 200px"
-        >
-          <q-item clickable v-ripple>
-            <q-item-section class="text-h6 text-center"> xxxx </q-item-section>
-          </q-item>
-
-          <q-item clickable v-ripple>
-            <q-item-section class="text-center"> xxxx </q-item-section>
-          </q-item>
-
-          <q-item clickable v-ripple>
-            <q-item-section class="text-center"> xxxx </q-item-section>
-          </q-item>
-
-          <q-item clickable v-ripple>
-            <q-item-section class="text-center"> xxxx </q-item-section>
-          </q-item>
-
-          <q-item clickable v-ripple>
-            <q-item-section class="text-center"> xxxx </q-item-section>
-          </q-item>
-        </q-list>
-      </div>
-    </div>
-    <div class="col">
-      <div class="q-pa-md" style="max-width: 350px">
-        <q-list
-          dense
-          bordered
-          padding
-          class="rounded-borders"
-          style="min-height: 200px"
-        >
-          <q-item clickable v-ripple>
-            <q-item-section class="text-h6 text-center"> xxxx </q-item-section>
-          </q-item>
-
-          <q-item clickable v-ripple>
-            <q-item-section class="text-center"> xxxx </q-item-section>
-          </q-item>
-
-          <q-item clickable v-ripple>
-            <q-item-section class="text-center"> xxxx </q-item-section>
-          </q-item>
-
-          <q-item clickable v-ripple>
-            <q-item-section class="text-center"> xxxx </q-item-section>
-          </q-item>
-        </q-list>
-      </div>
+  <div class="row bg-pink-2">
+    <div class="col-6">Imagem</div>
+    <div class="col-6">
+      <h4 class="text-left">Soft Skills</h4>
+      <q-item>
+        <q-item-section class="text-left">Resilência</q-item-section></q-item
+      >
+      <q-item>
+        <q-item-section class="text-left">Liderança</q-item-section></q-item
+      >
+      <q-item>
+        <q-item-section class="text-left">Trabalho em Equipe</q-item-section>
+      </q-item>
+      <q-item>
+        <q-item-section class="text-left">Empatia</q-item-section>
+      </q-item>
+      <q-item>
+        <q-item-section class="text-left">Organização</q-item-section>
+      </q-item>
+      <q-item>
+        <q-item-section class="text-left">Criatividade</q-item-section>
+      </q-item>
     </div>
   </div>
   <div class="q-pa-md q-gutter-md">
@@ -358,17 +377,9 @@
       </q-parallax>
     </div>
   </div>
-  <div class="bg-yellow" href="#trabalhos">
-    <h1 class="text-center">Projetos</h1>
-  </div>
-  <div class="q-pa-md">
-    <q-card class="bg-yellow"> Projeto 1</q-card>
-  </div>
-  <div class="q-pa-md">
-    <q-card class="bg-yellow"> Projeto 2</q-card>
-  </div>
-  <div class="q-pa-md">
-    <q-card class="bg-yellow"> Projeto 3</q-card>
+  <div>
+    Teste de Espaço
+    <ProjetosComponent />
   </div>
 
   <h1 class="text-center" href="#contato">Contato</h1>
@@ -383,5 +394,5 @@
 </template>
 
 <script>
-import { ref, computed } from "vue";
+import ProjetosComponent from "pages/ProjetosComponent.vue";
 </script>
