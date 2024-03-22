@@ -1,6 +1,13 @@
 root = true
 
-[*]
+['material-icons',
+  'mdi-v7',
+  'ionicons-v4', // last webfont was available in v4.6.3
+  'eva-icons',
+  'fontawesome-v6',
+  'themify',
+  'line-awesome',
+  'bootstrap-icons']
 charset = utf-8
 indent_style = space
 indent_size = 2
