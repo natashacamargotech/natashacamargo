@@ -1,7 +1,7 @@
 <template>
   <q-layout view="lHh lpr lFf" class="shadow-2 rounded-borders">
     <q-header reveal elevated>
-      <q-toolbar class="bg-primary text-black">
+      <q-toolbar class="bg-secondary text-white text-bold">
         <q-toolbar-title>Natasha Camargo</q-toolbar-title>
 
         <q-tabs v-model="tab">
@@ -10,20 +10,19 @@
           <q-tab name="trabalhos" label="Projetos" />
         </q-tabs>
 
-        <div class="row items-justify-end q-pa-md q-gutter-sm bg-green">
+        <q-space />
+        <div class="row items-justify-end q-pa-md q-gutter-sm">
           <q-btn
-            round
+            flat
             icon="fa-brands fa-github"
-            href="https://github.com/natashacamargo89"
+            href="https://github.com/natashacamargotech"
           />
           <q-btn
-            round
+            flat
             icon="fa-brands fa-linkedin"
             href="https://www.linkedin.com/in/natashacamargo/"
           />
         </div>
-
-        <q-space />
       </q-toolbar>
     </q-header>
 
