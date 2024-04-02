@@ -1,52 +1,39 @@
 <template>
-  <div class="row items-center bg-secondary" href="#sobre">
+  <div class="row bg-pink" href="#sobre">
     <!-- Banner -->
     <img src="public/img/banner.png" class="full-width" />
     <!-- Avatar -->
-    <div class="col-5 q-mx-sx">
+    <div class="col-6 q-mx-sx">
       <!-- <q-img src="" style="width: 450px; height: auto" /> -->
     </div>
-    <div class="col-7 q-pa-md">
+    <div class="col-6 q-pa-md">
       <q-card class="q-pa-md text-h5 bg-pink">
-        <h4 class="text-center text-white">Sobre Mim</h4>
-        <p class="text-justify-between text-white">
-          Sou uma profissional com experiência em Odontologia e estou em
-          transição de carreira para a área de Análise e Desenvolvimento de
-          Sistemas.
+        <h3 class="text-justify text-white">Olá,</h3>
+        <p class="text-justify text-white">
+          sou Natasha Camargo, desenvolvedora de sistemas - FullStack em
+          projetos de acesso corporativo e público.
         </p>
-        <p class="text-justify-between text-white">
-          Minha atuação como cirurgiã-dentista com vivência nas áreas de
-          elaboração de diagnósticos e atendimento ao cliente contribuem para a
-          minha facilidade em implementar, desenvolver e projetar sistemas.
-          Tenho experiência em docência e consultório, trabalho em equipe,
-          liderança de equipe, capacidade analítica e de resolução de problemas,
-          organização e gestão de projetos.
-        </p>
-        <p class="text-justify-between text-white">
-          Atualmente sou desenvolvedora de sistemas - FullStack em projetos de
-          acesso corporativo e público.
+        <p class="text-justify text-white">
+          Tenho experiência em Odontologia, possuo experiência em gestão clínica
+          e acadêmica.
         </p>
       </q-card>
     </div>
   </div>
-
-  <div>
-    <ProjetosComponent />
+  <div href="#projetos">
+    <ProjetosPage />
   </div>
-
-  <div>
-    <SkilssComponent />
+  <div href="#skills">
+    <SkilssPage />
   </div>
-
-  <q-toolbar class="bg-secondary">
-    <q-toolbar-title class="text-center text-white text-bold">
-      Copyright © 2024 | Criado por Natasha Camargo
-    </q-toolbar-title>
-  </q-toolbar>
+  <div href="#contato">
+    <FormularioPage />
+  </div>
 </template>
 
 <script setup>
 import { defineComponent } from "vue";
-import ProjetosComponent from "pages/ProjetosComponent.vue";
-import SkilssComponent from "pages/SkillsComponent.vue";
+import ProjetosPage from "pages/ProjetosPage.vue";
+import SkilssPage from "pages/SkillsPage.vue";
+import FormularioPage from "pages/FormularioPage.vue";
 </script>

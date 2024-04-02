@@ -1,13 +1,14 @@
 <template>
   <q-layout view="lHh lpr lFf" class="shadow-2 rounded-borders">
     <q-header reveal elevated>
-      <q-toolbar class="bg-secondary text-white text-bold">
+      <q-toolbar class="bg-pink text-white text-bold">
         <q-toolbar-title>Natasha Camargo</q-toolbar-title>
 
         <q-tabs v-model="tab">
-          <q-tab name="sobre" label="Sobre mim" />
-          <q-tab name="skills" label="Skills" />
-          <q-tab name="trabalhos" label="Projetos" />
+          <q-tab name="home" label="Home" />
+          <q-tab name="sobre" label="Quem Sou" />
+          <q-tab name="projetos" label="Projetos" />
+          <q-tab name="contato" label="Contato" />
         </q-tabs>
 
         <q-space />
@@ -29,6 +30,11 @@
     <q-page-container>
       <router-view />
     </q-page-container>
+    <q-toolbar class="bg-pink">
+      <q-toolbar-title class="text-center text-white text-bold">
+        Copyright © 2024 | Criado por Natasha Camargo
+      </q-toolbar-title>
+    </q-toolbar>
   </q-layout>
 </template>
 <script setup></script>
