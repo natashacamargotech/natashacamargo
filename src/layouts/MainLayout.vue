@@ -8,7 +8,6 @@
           <q-tab name="home" label="Home" />
           <q-tab name="sobre" label="Quem Sou" />
           <q-tab name="projetos" label="Projetos" />
-          <q-tab name="contato" label="Contato" />
         </q-tabs>
 
         <q-space />

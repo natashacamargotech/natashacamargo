@@ -12,11 +12,11 @@
   <div href="#projetos">
     <ProjetosPage />
   </div>
-  <div href="#skills">
+  <!-- <div href="#skills">
     <SkilssPage />
-  </div>
+  </div> -->
   <div href="#contato">
-    <FormularioPage />
+    <ContatoPage />
   </div>
 </template>
 
@@ -24,5 +24,5 @@
 import { defineComponent } from "vue";
 import ProjetosPage from "pages/ProjetosPage.vue";
 import SkilssPage from "pages/SkillsPage.vue";
-import FormularioPage from "pages/FormularioPage.vue";
+import ContatoPage from "pages/ContatoPage.vue";
 </script>

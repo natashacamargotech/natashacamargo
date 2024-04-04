@@ -3,8 +3,33 @@
     <div class="row">
       <div class="col-4"></div>
       <div class="col-4">
-        <div class="q-pa-md" style="max-width: 800px">
-          <h1 class="text-center text-white">Contato</h1>
+        <div class="q-pa-md">
+          <h2 class="text-center text-white">Contato</h2>
+          <div class="col-4 text-center text-white">
+            <q-btn
+              flat
+              icon="fa-brands fa-github"
+              href="https://github.com/natashacamargotech"
+            />
+
+            <q-btn
+              flat
+              icon="fa-brands fa-linkedin"
+              href="https://www.linkedin.com/in/natashacamargo/"
+            />
+          </div>
+          <div class="col-4 text-h6 text-center text-white q-pa-md">
+            Podemos desenvolver alguns projetos?
+          </div>
+          <div class="col-4 text-center text-white q-pa-md">
+            <q-btn
+              flat
+              icon="fa fa-envelope"
+              href="mailto:natashacamargo.tech@gmail.com"
+              label="E-mail"
+            />
+          </div>
+
           <!-- <q-form @submit="onSubmit" @reset="onReset" class="q-gutter-md">
             <q-input
               filled
