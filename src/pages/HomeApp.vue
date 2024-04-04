@@ -1,23 +1,12 @@
 <template>
-  <div class="row bg-pink" href="#sobre">
+  <div class="bg-pink" href="#sobre">
     <!-- Banner -->
-    <img src="public/img/banner.png" class="full-width" />
-    <!-- Avatar -->
-    <div class="col-6 q-mx-sx">
-      <!-- <q-img src="" style="width: 450px; height: auto" /> -->
-    </div>
-    <div class="col-6 q-pa-md">
-      <q-card class="q-pa-md text-h5 bg-pink">
-        <h3 class="text-justify text-white">Olá,</h3>
-        <p class="text-justify text-white">
-          sou Natasha Camargo, desenvolvedora de sistemas - FullStack em
-          projetos de acesso corporativo e público.
-        </p>
-        <p class="text-justify text-white">
-          Tenho experiência em Odontologia, possuo experiência em gestão clínica
-          e acadêmica.
-        </p>
-      </q-card>
+
+    <q-img src="img/bannerhome.png" />
+
+    <!-- Sobre Mim -->
+    <div>
+      <q-img src="img/sobremim.jpg" />
     </div>
   </div>
   <div href="#projetos">
