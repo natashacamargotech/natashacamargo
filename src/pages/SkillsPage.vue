@@ -1,153 +1,183 @@
 <template>
-  <q-page class="bg-secondary">
+  <q-page class="q-pt-xl bg-secondary" style="min-height: auto">
     <!-- Hard Skills -->
-    <h1 class="text-center text-white">Hard Skills</h1>
-    <div class="q-pa-md">
-      <q-carousel
-        v-model="slide"
-        transition-prev="slide-right"
-        transition-next="slide-left"
-        swipeable
-        animated
-        control-color="pink"
-        navigation
-        padding
-        arrows
-        height="300px"
-        class="bg-white shadow-2 rounded-borders"
-      >
-        <q-carousel-slide :name="1" class="column no-wrap">
-          <div
-            class="row fit justify-start items-center q-gutter-xs q-col-gutter no-wrap"
+    <h1 class="text-center text-white">Hard Skilss</h1>
+    <div class="row">
+      <div class="col">
+        <div>
+          <q-carousel
+            animated
+            v-model="slide"
+            arrows
+            navigation
+            infinite
+            class="bg-secondary"
           >
-            <q-img
-              class="rounded-borders col-6 full-height"
-              src="https://cdn.quasar.dev/img/mountains.jpg"
-            />
-            <q-img
-              class="rounded-borders col-6 full-height"
-              src="https://cdn.quasar.dev/img/parallax1.jpg"
-            />
-          </div>
-        </q-carousel-slide>
-        <q-carousel-slide :name="2" class="column no-wrap">
-          <div
-            class="row fit justify-start items-center q-gutter-xs q-col-gutter no-wrap"
-          >
-            <q-img
-              class="rounded-borders col-6 full-height"
-              src="https://cdn.quasar.dev/img/parallax2.jpg"
-            />
-            <q-img
-              class="rounded-borders col-6 full-height"
-              src="https://cdn.quasar.dev/img/quasar.jpg"
-            />
-          </div>
-        </q-carousel-slide>
-        <q-carousel-slide :name="3" class="column no-wrap">
-          <div
-            class="row fit justify-start items-center q-gutter-xs q-col-gutter no-wrap"
-          >
-            <q-img
-              class="rounded-borders col-6 full-height"
-              src="https://cdn.quasar.dev/img/cat.jpg"
-            />
-            <q-img
-              class="rounded-borders col-6 full-height"
-              src="https://cdn.quasar.dev/img/linux-avatar.png"
-            />
-          </div>
-        </q-carousel-slide>
-        <q-carousel-slide :name="4" class="column no-wrap">
-          <div
-            class="row fit justify-start items-center q-gutter-xs q-col-gutter no-wrap"
-          >
-            <q-img
-              class="rounded-borders col-6 full-height"
-              src="https://cdn.quasar.dev/img/material.png"
-            />
-            <q-img
-              class="rounded-borders col-6 full-height"
-              src="https://cdn.quasar.dev/img/donuts.png"
-            />
-          </div>
-        </q-carousel-slide>
-      </q-carousel>
+            <q-carousel-slide :name="1" class="column no-wrap">
+              <div
+                class="row fit justify-start items-center q-gutter-xs q-col-gutter no-wrap"
+              >
+                <q-img
+                  class="rounded-borders col"
+                  style="height: 350px"
+                  src="https://cdn.quasar.dev/img/parallax1.jpg"
+                />
+                <q-img
+                  class="rounded-borders col"
+                  style="height: 350px"
+                  src="https://cdn.quasar.dev/img/parallax1.jpg"
+                />
+                <q-img
+                  class="rounded-borders col"
+                  style="height: 350px"
+                  src="https://cdn.quasar.dev/img/parallax1.jpg"
+                />
+                <q-img
+                  class="rounded-borders col"
+                  style="height: 350px"
+                  src="https://cdn.quasar.dev/img/parallax1.jpg"
+                />
+                <q-img
+                  class="rounded-borders col"
+                  style="height: 350px"
+                  src="https://cdn.quasar.dev/img/parallax1.jpg"
+                />
+                <q-img
+                  class="rounded-borders col"
+                  style="height: 350px"
+                  src="https://cdn.quasar.dev/img/parallax1.jpg"
+                />
+              </div>
+            </q-carousel-slide>
+            <q-carousel-slide :name="2" class="column no-wrap">
+              <div
+                class="row fit justify-start items-center q-gutter-xs q-col-gutter no-wrap"
+              >
+                <q-img
+                  class="rounded-borders col"
+                  style="height: 350px"
+                  src="https://cdn.quasar.dev/img/mountains.jpg"
+                />
+                <q-img
+                  class="rounded-borders col"
+                  style="height: 350px"
+                  src="https://cdn.quasar.dev/img/mountains.jpg"
+                />
+                <q-img
+                  class="rounded-borders col"
+                  style="height: 350px"
+                  src="https://cdn.quasar.dev/img/mountains.jpg"
+                />
+                <q-img
+                  class="rounded-borders col"
+                  style="height: 350px"
+                  src="https://cdn.quasar.dev/img/mountains.jpg"
+                />
+                <q-img
+                  class="rounded-borders col"
+                  style="height: 350px"
+                  src="https://cdn.quasar.dev/img/mountains.jpg"
+                />
+                <q-img
+                  class="rounded-borders col"
+                  style="height: 350px"
+                  src="https://cdn.quasar.dev/img/mountains.jpg"
+                />
+              </div>
+            </q-carousel-slide>
+          </q-carousel>
+        </div>
+      </div>
     </div>
     <!-- soft Skills -->
-    <h1 class="text-center text-white">Soft Skilss</h1>
-    <div class="q-pa-md">
-      <q-carousel
-        v-model="slide"
-        transition-prev="slide-right"
-        transition-next="slide-left"
-        swipeable
-        animated
-        control-color="pink"
-        navigation
-        padding
-        arrows
-        height="300px"
-        class="bg-white shadow-2 rounded-borders"
-      >
-        <q-carousel-slide :name="1" class="column no-wrap">
-          <div
-            class="row fit justify-start items-center q-gutter-xs q-col-gutter no-wrap"
+    <!-- <h1 class="text-center text-white">Soft Skilss</h1>
+    <div class="row">
+      <div class="col">
+        <div>
+          <q-carousel
+            animated
+            v-model="slide"
+            arrows
+            navigation
+            infinite
+            class="bg-secondary"
           >
-            <q-img
-              class="rounded-borders col-6 full-height"
-              src="https://cdn.quasar.dev/img/mountains.jpg"
-            />
-            <q-img
-              class="rounded-borders col-6 full-height"
-              src="https://cdn.quasar.dev/img/parallax1.jpg"
-            />
-          </div>
-        </q-carousel-slide>
-        <q-carousel-slide :name="2" class="column no-wrap">
-          <div
-            class="row fit justify-start items-center q-gutter-xs q-col-gutter no-wrap"
-          >
-            <q-img
-              class="rounded-borders col-6 full-height"
-              src="https://cdn.quasar.dev/img/parallax2.jpg"
-            />
-            <q-img
-              class="rounded-borders col-6 full-height"
-              src="https://cdn.quasar.dev/img/quasar.jpg"
-            />
-          </div>
-        </q-carousel-slide>
-        <q-carousel-slide :name="3" class="column no-wrap">
-          <div
-            class="row fit justify-start items-center q-gutter-xs q-col-gutter no-wrap"
-          >
-            <q-img
-              class="rounded-borders col-6 full-height"
-              src="https://cdn.quasar.dev/img/cat.jpg"
-            />
-            <q-img
-              class="rounded-borders col-6 full-height"
-              src="https://cdn.quasar.dev/img/linux-avatar.png"
-            />
-          </div>
-        </q-carousel-slide>
-        <q-carousel-slide :name="4" class="column no-wrap">
-          <div
-            class="row fit justify-start items-center q-gutter-xs q-col-gutter no-wrap"
-          >
-            <q-img
-              class="rounded-borders col-6 full-height"
-              src="https://cdn.quasar.dev/img/material.png"
-            />
-            <q-img
-              class="rounded-borders col-6 full-height"
-              src="https://cdn.quasar.dev/img/donuts.png"
-            />
-          </div>
-        </q-carousel-slide>
-      </q-carousel>
-    </div>
+            <q-carousel-slide :name="1" class="column no-wrap">
+              <div
+                class="row fit justify-start items-center q-gutter-xs q-col-gutter no-wrap"
+              >
+                <q-img
+                  class="rounded-borders col"
+                  style="height: 350px"
+                  src="https://cdn.quasar.dev/img/parallax1.jpg"
+                />
+                <q-img
+                  class="rounded-borders col"
+                  style="height: 350px"
+                  src="https://cdn.quasar.dev/img/parallax1.jpg"
+                />
+                <q-img
+                  class="rounded-borders col"
+                  style="height: 350px"
+                  src="https://cdn.quasar.dev/img/parallax1.jpg"
+                />
+                <q-img
+                  class="rounded-borders col"
+                  style="height: 350px"
+                  src="https://cdn.quasar.dev/img/parallax1.jpg"
+                />
+                <q-img
+                  class="rounded-borders col"
+                  style="height: 350px"
+                  src="https://cdn.quasar.dev/img/parallax1.jpg"
+                />
+                <q-img
+                  class="rounded-borders col"
+                  style="height: 350px"
+                  src="https://cdn.quasar.dev/img/parallax1.jpg"
+                />
+              </div>
+            </q-carousel-slide>
+            <q-carousel-slide :name="2" class="column no-wrap">
+              <div
+                class="row fit justify-start items-center q-gutter-xs q-col-gutter no-wrap"
+              >
+                <q-img
+                  class="rounded-borders col"
+                  style="height: 350px"
+                  src="https://cdn.quasar.dev/img/mountains.jpg"
+                />
+                <q-img
+                  class="rounded-borders col"
+                  style="height: 350px"
+                  src="https://cdn.quasar.dev/img/mountains.jpg"
+                />
+                <q-img
+                  class="rounded-borders col"
+                  style="height: 350px"
+                  src="https://cdn.quasar.dev/img/mountains.jpg"
+                />
+                <q-img
+                  class="rounded-borders col"
+                  style="height: 350px"
+                  src="https://cdn.quasar.dev/img/mountains.jpg"
+                />
+                <q-img
+                  class="rounded-borders col"
+                  style="height: 350px"
+                  src="https://cdn.quasar.dev/img/mountains.jpg"
+                />
+                <q-img
+                  class="rounded-borders col"
+                  style="height: 350px"
+                  src="https://cdn.quasar.dev/img/mountains.jpg"
+                />
+              </div>
+            </q-carousel-slide>
+          </q-carousel>
+        </div>
+      </div>
+    </div> -->
   </q-page>
 </template>
 <script>
