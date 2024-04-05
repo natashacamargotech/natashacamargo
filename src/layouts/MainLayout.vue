@@ -1,13 +1,14 @@
 <template>
-  <q-layout view="lHh lpr lFf" class="shadow-2 rounded-borders">
+  <q-layout class="shadow-2 rounded-borders">
     <q-header reveal elevated>
       <q-toolbar class="bg-pink text-white text-bold">
-        <q-toolbar-title>Natasha Camargo</q-toolbar-title>
+        <q-toolbar-title>Portifolio Natasha Camargo</q-toolbar-title>
 
         <q-tabs v-model="tab">
-          <q-tab name="home" label="Home" />
-          <q-tab name="sobre" label="Quem Sou" />
-          <q-tab name="projetos" label="Projetos" />
+          <q-route-tab to="/home/" label="Home" />
+          <!-- <q-route-tab to="/sobre" label="Quem Sou" />
+          <q-route-tab to="/projetos/" label="Projetos" />
+          <q-route-tab to="/contato/" label="contato" /> -->
         </q-tabs>
 
         <q-space />
@@ -36,4 +37,4 @@
     </q-toolbar>
   </q-layout>
 </template>
-<script setup></script>
+<script></script>

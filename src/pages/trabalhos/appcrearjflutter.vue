@@ -1,26 +1,35 @@
 <template>
-  <q-page class="bg-secondary">
-    <div class="col">
-      <q-card class="q-pa-md text-h5 bg-pink">
-        <h4 class="text-center text-white">APP site Crea-RJ em Flutter</h4>
-        <p class="text-center text-white">
+  <q-page class="bg-pink">
+    <div class="col q-pa-md">
+      <h4 class="text-center text-white">APP Crea-RJ</h4>
+      <div class="q-pa-md text-h5 bg-pink">
+        <div class="row">
+          <div class="col"></div>
+          <div class="col">
+            <q-img
+              class="rounded-borders"
+              src="img/appcrearj.png"
+              style="height: 650px; max-width: 850px"
+            />
+          </div>
+          <div class="col"></div>
+        </div>
+        <div></div>
+        <p class="text-center text-white q-pt-xl">
           Projeto feito pela equipe de TI, o primeiro app do Crea-RJ,
         </p>
         <p class="text-center text-white">
           com o objetivo de facilitar o acesso as principais informações do
           engenheiro credenciado a instituição.
         </p>
-        <p class="text-center text-white">Colaborei com os ajustes de UI/UX.</p>
-      </q-card>
-      <!-- <div class="col-6">
-        <q-img
-          src="img/appcrearj.png"
-          style="height: 140px; max-width: 150px"
-        />
-      </div> -->
+
+        <p class="text-center text-white">
+          * Colaborei com os ajustes de UI/UX *
+        </p>
+      </div>
 
       <p class="text-h6 text-center text-white q-pa-md">
-        Caso você queira ver o site do Crea-RJ clique abaixo:
+        Caso você queira ver o app do Crea-RJ clique abaixo:
       </p>
       <div class="column items-center">
         <div class="col q-pa-md">
@@ -41,17 +50,29 @@
             size="20px"
           />
         </div>
-        <div class="q-pt-md">
-          <p class="text-center text-white">Liguagem de programação: Flutter</p>
+        <div class="column items-center">
+          <div class="q-pt-md">
+            <p class="text-h6 text-center text-white">
+              Liguagem de programação: Flutter
+            </p>
+          </div>
+          <div class="column items-center q-pa-md" style="height: 150px">
+            <div class="col">
+              <q-btn
+                outline
+                rounded
+                icon="fas fa-chevron-left"
+                label="Ver Outros Projetos"
+                href="/#/home/"
+                class="text-white"
+                size="20px"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </q-page>
-  <q-toolbar class="bg-secondary">
-    <q-toolbar-title class="text-center text-white text-bold">
-      Copyright © 2024 | Criado por Natasha Camargo
-    </q-toolbar-title>
-  </q-toolbar>
 </template>
 <script>
 import { defineComponent } from "vue";

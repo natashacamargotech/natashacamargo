@@ -1,28 +1,25 @@
 <template>
-  <div class="bg-pink" href="#sobre">
+  <div class="bg-pink" :id="Home">
     <!-- Banner -->
 
-    <q-img src="img/bannerhome.png" />
+    <q-img src="img/bannersystemdeveloper.jpg" />
 
     <!-- Sobre Mim -->
     <div>
       <q-img src="img/sobremim.jpg" />
     </div>
   </div>
-  <div href="#projetos">
+  <div>
     <ProjetosPage />
   </div>
-  <!-- <div href="#skills">
-    <SkilssPage />
-  </div> -->
-  <div href="#contato">
+
+  <div>
     <ContatoPage />
   </div>
 </template>
 
 <script setup>
-import { defineComponent } from "vue";
 import ProjetosPage from "pages/ProjetosPage.vue";
-import SkilssPage from "pages/SkillsPage.vue";
+
 import ContatoPage from "pages/ContatoPage.vue";
 </script>

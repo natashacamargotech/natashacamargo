@@ -36,7 +36,10 @@
                       </div>
                       <div class="row">
                         <div class="col q-pt-md">
-                          <q-btn label="ver detalhes do Projeto" />
+                          <q-btn
+                            label="ver detalhes do Projeto"
+                            href="/#/sitecrearj/"
+                          />
                         </div>
                       </div>
                     </div>
@@ -54,7 +57,10 @@
                       </div>
                       <div class="row">
                         <div class="col q-pt-md">
-                          <q-btn label="ver detalhes do Projeto" />
+                          <q-btn
+                            label="ver detalhes do Projeto"
+                            href="/#/appcrearj/"
+                          />
                         </div>
                       </div>
                     </div>
@@ -72,7 +78,10 @@
                       </div>
                       <div class="row">
                         <div class="col q-pt-md">
-                          <q-btn label="ver detalhes do Projeto" />
+                          <q-btn
+                            label="ver detalhes do Projeto"
+                            href="https://natashacamargotech.github.io/natashacamargo.tech/websitealura+.html"
+                          />
                         </div>
                       </div>
                     </div>
@@ -96,7 +105,10 @@
                       </div>
                       <div class="row">
                         <div class="col q-pt-md">
-                          <q-btn label="ver detalhes do Projeto" />
+                          <q-btn
+                            label="ver detalhes do Projeto"
+                            href="/#/jogopong/"
+                          />
                         </div>
                       </div>
                     </div>
@@ -114,7 +126,10 @@
                       </div>
                       <div class="row">
                         <div class="col q-pt-md">
-                          <q-btn label="ver detalhes do Projeto" />
+                          <q-btn
+                            label="ver detalhes do Projeto"
+                            href="/#/jogocarrinho/"
+                          />
                         </div>
                       </div>
                     </div>
