@@ -47,7 +47,7 @@
             rounded
             icon="fas fa-chevron-left"
             label="Ver Outros Projetos"
-            href="/#/home/"
+            href="/#/projetos"
             class="text-white"
             size="20px"
           />

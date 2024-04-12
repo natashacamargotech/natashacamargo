@@ -5,21 +5,20 @@
         <q-toolbar-title>Portifolio Natasha Camargo</q-toolbar-title>
 
         <q-tabs v-model="tab">
-          <q-route-tab to="/home/" label="Home" />
-          <!-- <q-route-tab to="/sobre" label="Quem Sou" />
-          <q-route-tab to="/projetos/" label="Projetos" />
-          <q-route-tab to="/contato/" label="contato" /> -->
+          <q-route-tab to="/" label="Home" />
         </q-tabs>
 
         <q-space />
         <div class="row items-justify-end q-pa-md q-gutter-sm">
           <q-btn
             flat
+            inline
             icon="fa-brands fa-github"
             href="https://github.com/natashacamargotech"
           />
           <q-btn
             flat
+            inline
             icon="fa-brands fa-linkedin"
             href="https://www.linkedin.com/in/natashacamargo/"
           />
@@ -30,6 +29,7 @@
     <q-page-container>
       <router-view />
     </q-page-container>
+
     <q-toolbar class="bg-pink">
       <q-toolbar-title class="text-center text-white text-bold">
         Copyright © 2024 | Criado por Natasha Camargo
@@ -37,4 +37,3 @@
     </q-toolbar>
   </q-layout>
 </template>
-<script></script>

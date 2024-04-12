@@ -3,14 +3,17 @@ const routes = [
     path: "/",
     component: () => import("layouts/MainLayout.vue"),
     children: [
-      { path: "home", component: () => import("pages/HomeApp.vue") },
-
+      { path: "", component: () => import("pages/HomeApp.vue") },
+      {
+        path: "projetos",
+        component: () => import("pages/ProjetosPage.vue"),
+      },
       {
         path: "sitecrearj",
         component: () => import("pages/trabalhos/sitecrearjwordpress.vue"),
       },
       {
-        path: "appcreaj",
+        path: "appcrearj",
         component: () => import("pages/trabalhos/appcrearjflutter.vue"),
       },
       {
@@ -20,10 +23,6 @@ const routes = [
       {
         path: "jogocarrinho",
         component: () => import("pages/trabalhos/jogocarrinho.vue"),
-      },
-      {
-        path: "skills",
-        component: () => import("pages/SkillsPage.vue"),
       },
     ],
   },

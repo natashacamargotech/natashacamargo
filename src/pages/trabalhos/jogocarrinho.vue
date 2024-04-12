@@ -24,8 +24,8 @@
               outline
               rounded
               icon="fas fa-chevron-left"
-              label="Ver Outros Projetos"
-              href="/#/home/"
+              label="Ver Outros Trabalhos"
+              href="/#/projetos"
               class="text-white"
               size="20px"
             />
