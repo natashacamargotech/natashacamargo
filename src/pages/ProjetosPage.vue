@@ -37,7 +37,7 @@
                     <div class="col q-pt-md">
                       <q-btn
                         label="ver detalhes do Projeto"
-                        href="/#/sitecrearj/"
+                        href="natashacamargo/#/sitecrearj"
                       />
                     </div>
                   </div>
@@ -57,7 +57,7 @@
                     <div class="col q-pt-md">
                       <q-btn
                         label="ver detalhes do Projeto"
-                        href="/#/appcrearj/"
+                        href="natashacamargo/#/appcrearj"
                       />
                     </div>
                   </div>
@@ -103,7 +103,7 @@
                     <div class="col q-pt-md">
                       <q-btn
                         label="ver detalhes do Projeto"
-                        href="/#/jogopong/"
+                        href="natashacamargo/#/jogopong"
                       />
                     </div>
                   </div>
@@ -129,7 +129,7 @@
                     <div class="col q-pt-md">
                       <q-btn
                         label="ver detalhes do Projeto"
-                        href="/#/jogocarrinho/"
+                        href="natashacamargo/#/jogocarrinho"
                       />
                     </div>
                   </div>
