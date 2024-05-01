@@ -5,23 +5,23 @@ const routes = [
     children: [
       { path: "", component: () => import("pages/HomeApp.vue") },
       {
-        path: "projetos",
+        path: "natashacamargo/#/projetos",
         component: () => import("pages/ProjetosPage.vue"),
       },
       {
-        path: "sitecrearj",
+        path: "natashacamargo/#/sitecrearj",
         component: () => import("pages/trabalhos/sitecrearjwordpress.vue"),
       },
       {
-        path: "appcrearj",
+        path: "natashacamargo/#/appcrearj",
         component: () => import("pages/trabalhos/appcrearjflutter.vue"),
       },
       {
-        path: "jogopong",
+        path: "natashacamargo/#/jogopong",
         component: () => import("pages/trabalhos/jogopong.vue"),
       },
       {
-        path: "jogocarrinho",
+        path: "natashacamargo/#/jogocarrinho",
         component: () => import("pages/trabalhos/jogocarrinho.vue"),
       },
     ],
